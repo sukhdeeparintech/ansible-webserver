@@ -1,5 +1,5 @@
 pipeline {
-    agent { label  "agentnode" }
+    agent { label  "agentfarm" }
     stages {
         stage('Delete the workspace') {
             steps {
